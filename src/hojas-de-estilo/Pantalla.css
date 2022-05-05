@@ -1,0 +1,21 @@
+@font-face {
+  font-family: ds-digit;
+  src: url('./DS-DIGIT.TTF') format('truetype');
+}
+.input {
+  height: 75px;
+  border-radius: 50px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-family: ds-digit;
+  font-weight: bold;
+  font-size: 60px;
+  /* background-color: #0a0a23; */
+  background-color: #101015;
+  color: white;
+  padding: 11px 30px 11px 11px;
+  margin: 1px solid #888;
+  box-shadow: -1px 4px 1px 1px rgb(155, 151, 151);
+}
